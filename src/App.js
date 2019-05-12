@@ -1,12 +1,10 @@
 import React from 'react';
-import Movies from './Movies/Movies.jsx';
+import Calculator from './Calculator/Calculator';
 
 function App() {
   return (
     <div className='App'>
-      <h2>Hai</h2>
-      <Movies />
-      <input onChange='' />
+      <Calculator />
     </div>
   );
 }
