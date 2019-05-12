@@ -5,8 +5,20 @@ class Calculator extends React.Component {
     a: 10,
     b: 5
   };
+
   render() {
-    return <div>{this.state.a + ',' + this.state.b}</div>;
+    const add = this.state.a + this.state.b;
+    return (
+      <div>
+        {'Add : ' + add}
+        <br />
+        {'Sub : ' + (this.state.a - this.state.b)}
+        <br />
+        {'Mul : ' + this.state.a * this.state.b}
+        <br />
+        {'Div: ' + this.state.a / this.state.b}
+      </div>
+    );
   }
 }
 
