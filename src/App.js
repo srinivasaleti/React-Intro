@@ -1,12 +1,20 @@
-import React from 'react';
-import Calculator from './Calculator/Calculator';
-import LifeCycleDemo from './LifeCycleDemo/LifeCycleDemo';
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Links } from "./Links";
+import { CustomeRouter } from "./CustomeRouter";
 
 function App() {
   return (
-    <div className='App'>
-      <LifeCycleDemo a={10} />
-      {/* <Calculator /> */}
+    <div className="App">
+      Hello World
+      <hr />
+      <div className="router">
+        <Router>
+          <Links />
+          <hr />
+          <CustomeRouter />
+        </Router>
+      </div>
     </div>
   );
 }
