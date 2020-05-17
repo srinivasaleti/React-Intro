@@ -11,6 +11,8 @@ export function Links() {
       <Link to="parent-to-child">Parent To Child</Link>
       <br />
       <Link to="child-to-parent">Child To Parent</Link>
+      <br />
+      <Link to="child-to-child">Child To Child</Link>
     </div>
   );
 }
