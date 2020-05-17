@@ -4,6 +4,7 @@ import LifeCycleDemo from "./LifeCycleDemo/LifeCycleDemo";
 import Movies from "./Movies/Movies";
 import { Route } from "react-router-dom";
 import { ParentToChildComponent } from './ParentToChild/ParentToChild';
+import { ChildToParentDemo } from './ChildToParent/ChildToParent';
 export function CustomeRouter() {
   return (
     <div>
@@ -11,6 +12,7 @@ export function CustomeRouter() {
       <Route path="/calc" component={Calculator} />
       <Route path="/life-cycle" component={LifeCycleDemo} />
       <Route path="/parent-to-child" component={ParentToChildComponent} />
+      <Route path="/child-to-parent" component={ChildToParentDemo} />
     </div>
   );
 }
