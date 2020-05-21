@@ -6,6 +6,7 @@ import { Route } from "react-router-dom";
 import { ParentToChildComponent } from './ParentToChild/ParentToChild';
 import { ChildToParentDemo } from './ChildToParent/ChildToParent';
 import { SiblingCommunicationDemo } from './SiblingCommunication/ChildToParent';
+import { EvenOrOdd } from './InputEvent/InputEvent';
 export function CustomeRouter() {
   return (
     <div>
@@ -15,6 +16,7 @@ export function CustomeRouter() {
       <Route path="/parent-to-child" component={ParentToChildComponent} />
       <Route path="/child-to-parent" component={ChildToParentDemo} />
       <Route path="/child-to-child" component={SiblingCommunicationDemo} />
+      <Route path="/input-event" component={EvenOrOdd} />
     </div>
   );
 }

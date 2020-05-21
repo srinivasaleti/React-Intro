@@ -13,6 +13,8 @@ export function Links() {
       <Link to="child-to-parent">Child To Parent</Link>
       <br />
       <Link to="child-to-child">Child To Child</Link>
+      <br />
+      <Link to="input-event">Input Event Demo</Link>
     </div>
   );
 }
