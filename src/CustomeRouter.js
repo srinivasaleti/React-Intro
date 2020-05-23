@@ -7,6 +7,7 @@ import { ParentToChildComponent } from './ParentToChild/ParentToChild';
 import { ChildToParentDemo } from './ChildToParent/ChildToParent';
 import { SiblingCommunicationDemo } from './SiblingCommunication/ChildToParent';
 import { EvenOrOdd } from './InputEvent/InputEvent';
+import { GetAPIDemo } from './GetAPIDemo/GetAPIDemo';
 export function CustomeRouter() {
   return (
     <div>
@@ -17,6 +18,7 @@ export function CustomeRouter() {
       <Route path="/child-to-parent" component={ChildToParentDemo} />
       <Route path="/child-to-child" component={SiblingCommunicationDemo} />
       <Route path="/input-event" component={EvenOrOdd} />
+      <Route path="/get-api" component={GetAPIDemo} />
     </div>
   );
 }

@@ -15,6 +15,8 @@ export function Links() {
       <Link to="child-to-child">Child To Child</Link>
       <br />
       <Link to="input-event">Input Event Demo</Link>
+      <br />
+      <Link to="get-api">Get Api Demo</Link>
     </div>
   );
 }
